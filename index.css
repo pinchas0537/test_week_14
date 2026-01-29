@@ -20,9 +20,10 @@ img {
     width: 40px;
     height: 40px;
 }
-header img:hover{
+
+header img:hover {
     transition: transform 0.2s ease-in;
-    transform: rotate(180deg) ;
+    transform: rotate(180deg);
     width: 45px;
     height: 45px;
 }
@@ -56,9 +57,11 @@ header {
     align-content: center;
     margin-right: 25px;
 }
-#secure:hover{
+
+#secure:hover {
     background: rgb(13, 69, 20);
 }
+
 main {
     display: grid;
     grid-column: 1/6;
@@ -77,9 +80,11 @@ main {
     border: 2px solid rgb(28, 29, 34);
     border-radius: 20px;
 }
-.circle:hover{
+
+.circle:hover {
     border: 2px solid rgb(0, 220, 63);
 }
+
 .radar {
     grid-row: 2/10;
     grid-column: 2/7;
@@ -146,7 +151,6 @@ main {
 .text {
     font-size: 12px;
     color: rgb(92, 91, 101);
-    justify-self: center;
 }
 
 .n24 {
@@ -170,241 +174,143 @@ main {
     grid-column: 14/16;
     align-self: center;
 }
-#point0{
+
+#point0 {
     grid-row: 6;
     grid-column: 14;
     align-self: center;
     padding-left: 17.5px;
 }
-.bolt{
+
+.bolt {
     color: rgb(178, 178, 188);
 }
-.menu{
+
+.menu {
     color: rgb(157, 159, 176);
     display: grid;
-    grid-template-columns: repeat(20,1fr);
+    grid-template-columns: repeat(20, 1fr);
     grid-row: 10/12;
     grid-column: 2/30;
 }
-.brief{
-    grid-column: 1/3;
+
+.menu-btn {
     background: rgb(16, 15, 30);
     height: 50px;
+    border: 2px solid rgb(24, 24, 34);
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.brief {
     width: 120px;
-    border: 2px solid rgb(24, 24, 34);
-    border-radius: 50px;
-    justify-self: center;
-    justify-items: center;
 }
-.code{
-    grid-column: 3/5;
-    background: rgb(16, 15, 30);
-    height: 50px;
+
+.code {
     width: 130px;
-    border: 2px solid rgb(24, 24, 34);
-    border-radius: 50px;
-    justify-self: start;
-    justify-items: center;
 }
-.plane{
-    grid-column: 5/8;
-    background: rgb(16, 15, 30);
-    height: 50px;
+
+.plane {
     width: 180px;
-    border: 2px solid rgb(24, 24, 34);
-    border-radius: 50px;
-    justify-self: start;
-    justify-items: center;
 }
-.saction{
+
+.saction {
     grid-row: 12/17;
     grid-column: 2/30;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
-.progress{
+
+.box {
     display: grid;
-    grid-template-rows: repeat(8,1fr);
-    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     background: rgb(16, 15, 30);
     height: 120px;
     width: 310px;
     border: 2px solid rgb(24, 24, 34);
-    border-left: 2px solid rgb(18, 198, 74);
     border-radius: 20px;
     justify-self: start;
     justify-items: center;
 }
-#cr{
+
+.critical {
+    border-left: 2px solid rgb(18, 198, 74);
+}
+
+.card-label{
     grid-row: 2/4;
     grid-column: 2/5;
-    background:rgb(65, 25, 45) ;
-    color: rgb(162, 38, 77);
-    border: 1px solid rgb(125, 34, 67);
     font-size: 15px;
     padding: 7px;
     border-radius: 5px;
 }
-#in{
+
+.card-critical {
+    background: rgb(65, 25, 45);
+    color: rgb(162, 38, 77);
+    border: 1px solid rgb(125, 34, 67);
+}
+
+.card-status {
     grid-row: 2/4;
     grid-column: 8/11;
     justify-self: start;
     color: rgb(81, 78, 93);
     font-size: 14px;
 }
-#oper{
-    color: rgb(140, 147, 161);
-    grid-row: 5/5;
-    grid-column: 2/7;
-    justify-self: start;
-}
-#file{
+
+.prog {
     accent-color: rgb(0, 220, 63);
     grid-row: 7;
     grid-column: 2/9;
     justify-self: start;
 }
-#pogr{
+
+.percent {
     grid-row: 7;
     grid-column: 8;
 }
-.hige{
-    display: grid;
-    grid-template-rows: repeat(8,1fr);
-    grid-template-columns: repeat(10,1fr);
-    background: rgb(16, 15, 30);
-    height: 120px;
-    width: 310px;
-    border: 2px solid rgb(24, 24, 34);
+
+.high {
     border-left: 2px solid rgb(239, 186, 45);
-    border-radius: 20px;
-    justify-self: start;
-    justify-items: center;
 }
-#hi{
-    grid-row: 2/4;
-    grid-column: 2/5;
-    background:rgb(64, 50, 13) ;
+
+.card-high {
+    background: rgb(64, 50, 13);
     color: rgb(177, 123, 17);
     border: 1px solid rgb(148, 124, 77);
-    font-size: 15px;
-    padding: 7px;
-    border-radius: 5px;
-    justify-self: start;
 }
-#an{
-    grid-row: 2/4;
-    grid-column: 8/11;
-    justify-self: start;
-    color: rgb(81, 78, 93);
-    font-size: 14px;
-}
-#si{
+
+.card-desc {
     color: rgb(140, 147, 161);
     grid-row: 5/5;
     grid-column: 2/7;
     justify-self: start;
 }
-#file{
-    grid-row: 7;
-    grid-column: 2/9;
-    justify-self: start;
-}
-#por{
-    grid-row: 7;
-    grid-column: 8;
-}
-.med{
-    display: grid;
-    grid-template-rows: repeat(8,1fr);
-    grid-template-columns: repeat(10,1fr);
-    background: rgb(16, 15, 30);
-    height: 120px;
-    width: 310px;
-    border: 2px solid rgb(24, 24, 34);
+
+.medium {
     border-left: 2px solid rgb(27, 156, 49);
-    border-radius: 20px;
-    justify-self: start;
-    justify-items: center;
 }
-#me{
-    grid-row: 2/4;
-    grid-column: 2/5;
-    background:rgb(0, 74, 20) ;
+
+.card-medium {
+    background: rgb(0, 74, 20);
     color: rgb(38, 165, 71);
     border: 1px solid rgb(40, 128, 68);
-    font-size: 15px;
-    padding: 7px;
-    border-radius: 5px;
-    justify-self: start;
 }
-#pe{
-    grid-row: 2/4;
-    grid-column: 8/11;
-    justify-self: start;
-    color: rgb(81, 78, 93);
-    font-size: 14px;
-}
-#as{
-    color: rgb(140, 147, 161);
-    grid-row: 5/5;
-    grid-column: 2/7;
-    justify-self: start;
-}
-#file{
-    grid-row: 7;
-    grid-column: 2/9;
-    justify-self: start;
-}
-#por{
-    grid-row: 7;
-    grid-column: 8;
-}
-.hig{
-    display: grid;
-    grid-template-rows: repeat(8,1fr);
-    grid-template-columns: repeat(10,1fr);
-    background: rgb(16, 15, 30);
-    height: 120px;
-    width: 310px;
-    border: 2px solid rgb(24, 24, 34);
+
+.high2 {
     border-left: 2px solid rgb(228, 175, 37);
-    border-radius: 20px;
-    justify-self: start;
-    justify-items: center;
 }
-#h{
-    grid-row: 2/4;
-    grid-column: 2/5;
-    background:rgb(61, 50, 25) ;
+
+.card-high2 {
+    background: rgb(61, 50, 25);
     color: rgb(172, 131, 24);
     border: 1px solid rgb(152, 122, 77);
-    font-size: 15px;
-    padding: 7px;
-    border-radius: 5px;
-    justify-self: start;
 }
-#ac{
-    grid-row: 2/4;
-    grid-column: 8/11;
-    justify-self: start;
-    color: rgb(81, 78, 93);
-    font-size: 14px;
+
+#th {
+    color: rgb(202, 59, 90);
 }
-#cy{
-    color: rgb(140, 147, 161);
-    grid-row: 5/5;
-    grid-column: 2/7;
-    justify-self: start;
-}
-#file{
-    grid-row: 7;
-    grid-column: 2/9;
-    justify-self: start;
-}
-#por{
-    grid-row: 7;
-    grid-column: 8;
-}
-#th{color: rgb(202, 59, 90);}
