@@ -17,8 +17,14 @@ img {
     background: rgb(13, 220, 70);
     border-radius: 100%;
     padding: 10px;
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
+}
+header img:hover{
+    transition: transform 0.2s ease-in;
+    transform: rotate(180deg) ;
+    width: 45px;
+    height: 45px;
 }
 
 header {
@@ -50,7 +56,9 @@ header {
     align-content: center;
     margin-right: 25px;
 }
-
+#secure:hover{
+    background: rgb(13, 69, 20);
+}
 main {
     display: grid;
     grid-column: 1/6;
@@ -69,7 +77,9 @@ main {
     border: 2px solid rgb(28, 29, 34);
     border-radius: 20px;
 }
-
+.circle:hover{
+    border: 2px solid rgb(0, 220, 63);
+}
 .radar {
     grid-row: 2/10;
     grid-column: 2/7;
@@ -250,6 +260,7 @@ main {
     justify-self: start;
 }
 #file{
+    accent-color: rgb(0, 220, 63);
     grid-row: 7;
     grid-column: 2/9;
     justify-self: start;
